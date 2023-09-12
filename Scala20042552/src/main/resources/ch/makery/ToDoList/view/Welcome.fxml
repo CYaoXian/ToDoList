@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="470.0" prefWidth="600.0" styleClass="backgroundWelcome" stylesheets="@ToDoListCSS.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="72.0" layoutY="221.0" styleClass="welcomeLabel" text="Welcome To MyToDoList" />
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="225.0" layoutY="55.0">
+         <image>
+            <Image url="file:resources/images/welcomeIcon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
